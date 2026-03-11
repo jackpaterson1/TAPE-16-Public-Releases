@@ -1,0 +1,33 @@
+TAPE 16 - WINDOWS UNSIGNED RELEASE
+Version: 0.9.202
+
+Archive:
+TAPE16-Windows-Release-0.9.202.zip
+
+SHA256 checksums:
+TAPE16-Windows-Release-0.9.202-SHA256SUMS.txt
+
+Install:
+1) Extract TAPE16-Windows-Release-0.9.202.zip.
+2) Open folder TAPE16-Windows-Release-0.9.202.
+3) Run TAPE 16.exe.
+4) (Optional) Copy prelaunch.example.cmd to prelaunch.cmd and add custom commands.
+
+If Windows Defender SmartScreen blocks launch:
+1) Click More info.
+2) Click Run anyway.
+
+If Run anyway is not shown:
+1) Right click TAPE 16.exe and select Properties.
+2) Enable Unblock, then Apply.
+3) Launch again.
+
+Optional PowerShell unblock command:
+Unblock-File "TAPE 16.exe"
+
+If the app reports missing runtime components:
+Install Microsoft Visual C++ Redistributable (x64), then launch again.
+
+Note:
+- Checksums are published in TAPE16-Windows-Release-0.9.202-SHA256SUMS.txt.
+- SmartScreen reputation is not bypassed by path/location changes.
